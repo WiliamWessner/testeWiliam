@@ -1,0 +1,20 @@
+{
+    "name": "wiliam/prova",
+    "description": "Teste para vaga de Desenvolvedor Back-end",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Wiliam\\Prova\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Wiliam Wessner"
+        }
+    ],
+    "require": {
+        "doctrine/orm": "^2.16",
+        "symfony/cache": "^6.0",
+        "doctrine/annotations": "^2.0"
+    }
+}
